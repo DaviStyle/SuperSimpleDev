@@ -1,0 +1,98 @@
+.Subscribe-button {
+        background-color: rgb(216, 1, 1);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        vertical-align: top;
+      }
+
+      .Subscribe-button:hover {
+        opacity: 0.8;
+      }
+
+      .Subscribe-button:active {
+        opacity: 0.4;
+      }
+
+      .join-button {
+        background-color: white;
+        border-color: rgb(56, 56, 244);
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 16px;
+        padding-right: 16px;
+        color: rgb(56, 56, 244);
+        border-radius: 3px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+        transition: background-color 0.15s, color 0.15s;
+      }
+
+      .join-button:hover {
+        background-color: rgb(56, 56, 244);
+        color: white;
+      }
+
+      .join-button:active {
+        opacity: 0.7;
+      }
+
+      .Tweet-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        border-radius: 19px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        vertical-align: top;
+      }
+
+      .Tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .font {
+        font-size: 20px;
+        font-weight: bold;
+        color: green;
+      }
+
+      .fre {
+        font-size: 20px;
+      }
+
+      .cart {
+        background-color: rgb(254, 223, 23);
+        border: none;
+        width: 113px;
+        height: 30px;
+        border-radius: 19px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .now {
+        background-color: rgb(254, 181, 23);
+        border: none;
+        width: 113px;
+        height: 30px;
+        border-radius: 19px;
+        font-size: 14px;
+        margin-left: 9px;
+        cursor: pointer;
+      }

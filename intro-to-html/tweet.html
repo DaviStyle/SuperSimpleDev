@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet clone</title>
+
+    <style>
+      img {
+        margin: 0px 0px 0px 0px;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 6px;
+      }
+
+      .img-icon {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+      }
+
+      .User-Name {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 2px;
+        margin-left: 10px;
+      }
+
+      .mutuals {
+        font-family: Arial;
+        color: rgb(134, 134, 134);
+        font-size: 13px;
+        margin-left: 10px;
+      }
+
+      .Add-friend {
+        font-family: Arial;
+        background-color: rgb(60, 60, 253);
+        border: none;
+        width: 100px;
+        height: 34px;
+        margin-top: 2px;
+        color: white;
+        border-radius: 3px;
+        margin-left: 10px;
+      }
+
+      .Add-friend:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 6px 0.1px rgb(83, 83, 0);
+      }
+
+      .Add-friend:active {
+        transform: scale(0.98);
+      }
+
+      .friend-suggestion {
+        display: inline-block;
+        width: 160px;
+        height: 270px;
+        margin-right: 20px;
+        box-shadow: 0px 0px 5px 0.12px rgba(0, 0, 0, 0.2);
+      }
+
+      .pfp-container {
+        display: inline-block;
+      }
+
+      .info {
+        display: inline-block;
+      }
+
+      .follow-but {
+        display: inline-block;
+        margin-left: 120px;
+        vertical-align: top;
+        margin-top: 14px;
+      }
+
+      .follow {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: 500px;
+        color: rgb(224, 223, 223);
+        width: 100px;
+        height: 35px;
+        border-radius: 3px;
+        border: none;
+        background-color: rgb(91, 91, 252);
+      }
+      .follow:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 6px 0.1px rgb(83, 83, 0);
+      }
+      .follow:active {
+        transform: scale(0.98);
+      }
+
+      .pfp {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 70px;
+      }
+      .pfp:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 6px 0.1px rgb(83, 83, 0);
+      }
+      .pfp:active {
+        transform: scale(0.98);
+      }
+
+      .tweet {
+        box-shadow: 0px 0px 5px 0.12px rgba(30, 30, 30, 0.324);
+        width: 400px;
+        height: 60px;
+        padding: 6px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        vertical-align: top;
+      }
+      .User-Name {
+        display: inline-block;
+      }
+
+      .cat-class {
+        display: inline-block;
+      }
+
+      .name1-class {
+        display: inline-block;
+      }
+
+      .des1-class {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="friend-suggestion">
+      <div><img class="img-icon" src="cat.jpeg" alt="" /></div>
+      <div>
+        <div></div>
+        <div>
+          <p class="User-Name">Oliver</p>
+          <p class="mutuals">2 mutual friends</p>
+          <button class="Add-friend">Add Friend</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="friend-suggestion">
+      <div><img class="img-icon" src="dog.jpeg" alt="" /></div>
+      <div>
+        <div>
+          <p class="User-Name">mimi</p>
+          <p class="mutuals">2 mutual friends</p>
+          <button class="Add-friend">Add Friend</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="friend-suggestion">
+      <div><img class="img-icon" src="download.jpeg" alt="" /></div>
+      <div>
+        <div>
+          <div>
+            <p class="User-Name">bulldog</p>
+            <p class="mutuals">2 mutual friends</p>
+            <button class="Add-friend">Add Friend</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tweet">
+      <div class="pfp-container">
+        <img class="pfp" src="cat.jpeg" alt="cat image" />
+      </div>
+      <div class="info">
+        <div><p class="User-Name">Oliver</p></div>
+        <div><p class="mutuals">2 mutual friends</p></div>
+      </div>
+      <div class="follow-but">
+        <button class="follow">follow</button>
+      </div>
+    </div>
+
+    <div class="tweet">
+      <div class="pfp-container">
+        <img class="pfp" src="cat.jpeg" alt="cat image" />
+      </div>
+      <div class="info">
+        <div><p class="User-Name">Oliver</p></div>
+        <div><p class="mutuals">2 mutual friends</p></div>
+      </div>
+      <div class="follow-but">
+        <button class="follow">follow</button>
+      </div>
+    </div>
+
+    <div class="tweet">
+      <div class="pfp-container">
+        <img class="pfp" src="cat.jpeg" alt="cat image" />
+      </div>
+      <div class="info">
+        <div><p class="User-Name">Oliver</p></div>
+        <div><p class="mutuals">2 mutual friends</p></div>
+      </div>
+      <div class="follow-but">
+        <button class="follow">follow</button>
+      </div>
+    </div>
+  </body>
+</html>
